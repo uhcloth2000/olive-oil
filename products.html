@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Shop our premium collection of Extra Virgin, Cold Pressed, and Organic Olive Oils.">
+    <title>The Collection | Zaitoon</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .page-header {
+            padding: 15rem 0 8rem;
+            background: linear-gradient(135deg, #1a1a1a 0%, var(--olive-dark) 100%);
+            color: var(--white);
+            position: relative;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            color: var(--gold-primary);
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-leaf text-gold"></i>
+                Zaitoon<span>.</span>
+            </a>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">Our Story</a>
+                <a href="products.html" class="nav-link active">Collection</a>
+                <a href="benefits.html" class="nav-link">Wellbeing</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="products.html" class="btn btn-primary">Shop Now</a>
+            </div>
+
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <span class="hero-badge" style="border-color: rgba(255,255,255,0.2); color: var(--gold-light);">The
+                Collection</span>
+            <h1 class="reveal active-reveal">Exquisite Olive Oils</h1>
+            <p class="reveal delay-100" style="max-width: 600px; margin: 0 auto; color: rgba(255,255,255,0.7);">
+                Discover our range of meticulously crafted olive oils. Each bottle tells a story of sun, soil, and
+                passion.
+            </p>
+        </div>
+    </header>
+
+    <!-- Products Grid -->
+    <section class="section">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <article class="product-card reveal">
+                    <div class="prod-img-box">
+                        <img src="images/olive-oil-bottle.png" alt="Extra Virgin Olive Oil">
+                    </div>
+                    <div class="prod-content">
+                        <h3>Extra Virgin Reserve</h3>
+                        <p class="text-secondary">First Cold Press • Intense & Fruity</p>
+                        <p style="font-size: 0.9rem; color: #777;">
+                            Ideally balanced with notes of fresh grass and artichoke. Perfect for finishing dishes.
+                        </p>
+                        <div class="price-tag">Rs. 2,200 <span
+                                style="font-size: 0.9rem; font-weight: 400; color: #999;">/ 500ml</span></div>
+                        <div style="display: flex; gap: 10px; justify-content: center;">
+                            <button class="btn btn-primary" style="padding: 0.8rem 1.5rem;">Add to Cart</button>
+                            <button class="btn btn-outline"
+                                style="padding: 0.8rem 1.5rem; border-color: #25D366; color: #25D366;"
+                                onclick="window.open('https://wa.me/923001234567?text=I want to order Extra Virgin Reserve')"><i
+                                    class="fab fa-whatsapp"></i></button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card reveal delay-100">
+                    <div class="prod-img-box">
+                        <img src="images/olive-oil-bottle.png" alt="Organic Cold Pressed">
+                    </div>
+                    <div class="prod-content">
+                        <h3>Organic Gold</h3>
+                        <p class="text-secondary">Certified Organic • Mild & Buttery</p>
+                        <p style="font-size: 0.9rem; color: #777;">
+                            Grown without pesticides. A versatile oil ideal for everyday cooking and baking.
+                        </p>
+                        <div class="price-tag">Rs. 2,600 <span
+                                style="font-size: 0.9rem; font-weight: 400; color: #999;">/ 500ml</span></div>
+                        <div style="display: flex; gap: 10px; justify-content: center;">
+                            <button class="btn btn-primary" style="padding: 0.8rem 1.5rem;">Add to Cart</button>
+                            <button class="btn btn-outline"
+                                style="padding: 0.8rem 1.5rem; border-color: #25D366; color: #25D366;"
+                                onclick="window.open('https://wa.me/923001234567?text=I want to order Organic Gold')"><i
+                                    class="fab fa-whatsapp"></i></button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card reveal delay-200">
+                    <div class="prod-img-box">
+                        <img src="images/olive-oil-bottle.png" alt="Chef's Blend">
+                    </div>
+                    <div class="prod-content">
+                        <h3>Chef's Choice</h3>
+                        <p class="text-secondary">Premium Blend • 1 Liter</p>
+                        <p style="font-size: 0.9rem; color: #777;">
+                            A robust oil designed for high-heat cooking while maintaining nutritional integrity.
+                        </p>
+                        <div class="price-tag">Rs. 4,800 <span
+                                style="font-size: 0.9rem; font-weight: 400; color: #999;">/ 1 Liter</span></div>
+                        <div style="display: flex; gap: 10px; justify-content: center;">
+                            <button class="btn btn-primary" style="padding: 0.8rem 1.5rem;">Add to Cart</button>
+                            <button class="btn btn-outline"
+                                style="padding: 0.8rem 1.5rem; border-color: #25D366; color: #25D366;"
+                                onclick="window.open('https://wa.me/923001234567?text=I want to order Chefs Choice')"><i
+                                    class="fab fa-whatsapp"></i></button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="logo" style="color: var(--white); margin-bottom: 2rem;">
+                <i class="fas fa-leaf text-gold"></i>
+                Zaitoon<span style="color: var(--gold-primary);">.</span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 3rem;">
+                <div>
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Shop Collection</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone text-gold"></i> +92 300 1234567</li>
+                        <li><i class="fas fa-envelope text-gold"></i> info@zaitoon.pk</li>
+                        <li><i class="fas fa-map-marker-alt text-gold"></i> Lahore, Pakistan</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Zaitoon Pure Olive Oil. Crafted with perfection.</p>
+                <div style="display: flex; gap: 1rem;">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll Reveal
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active-reveal");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+        reveal();
+
+        // Navbar Scroll
+        window.addEventListener("scroll", function () {
+            var navbar = document.getElementById("navbar");
+            if (window.scrollY > 50) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+
+        // Mobile Nav
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

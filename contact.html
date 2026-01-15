@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Get in touch with Zaitoon Pure Olive Oil. We are here to answer your questions and take your orders.">
+    <title>Contact Us | Zaitoon</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .page-header {
+            padding: 15rem 0 8rem;
+            background: linear-gradient(135deg, #000 0%, var(--olive-dark) 100%);
+            color: var(--white);
+            position: relative;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            color: var(--gold-primary);
+            margin-bottom: 1rem;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 1rem 1.5rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            font-family: var(--font-body);
+            transition: 0.3s;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+            border-color: var(--gold-primary);
+            background: #fff;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+        }
+
+        .contact-info-item {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--gold-gradient);
+            color: var(--olive-dark);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-leaf text-gold"></i>
+                Zaitoon<span>.</span>
+            </a>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">Our Story</a>
+                <a href="products.html" class="nav-link">Collection</a>
+                <a href="benefits.html" class="nav-link">Wellbeing</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+                <a href="products.html" class="btn btn-primary">Shop Now</a>
+            </div>
+
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <span class="hero-badge" style="border-color: rgba(255,255,255,0.2); color: var(--gold-light);">Get in
+                Touch</span>
+            <h1 class="reveal active-reveal">We'd Love to Hear <br>From You</h1>
+            <p class="reveal delay-100" style="max-width: 600px; margin: 0 auto; color: rgba(255,255,255,0.7);">
+                Whether you have a question about our products, shipping, or just want to say hello, our team is ready
+                to assist.
+            </p>
+        </div>
+    </header>
+
+    <!-- Contact Form & Info -->
+    <section class="section">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 4rem;">
+                <!-- Info -->
+                <div class="reveal">
+                    <span class="section-subtitle">Contact Info</span>
+                    <h2 style="margin-bottom: 3rem;">Reach Out Directly</h2>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p style="margin: 0; color: var(--text-secondary);">+92 300 1234567</p>
+                            <p style="margin: 0; color: var(--text-secondary);">+92 42 12345678</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p style="margin: 0; color: var(--text-secondary);">info@zaitoon.pk</p>
+                            <p style="margin: 0; color: var(--text-secondary);">support@zaitoon.pk</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Headquarters</h4>
+                            <p style="margin: 0; color: var(--text-secondary);">
+                                123 Olive Grove Avenue, <br>
+                                DHA Phase 6, Lahore, Pakistan
+                            </p>
+                        </div>
+                    </div>
+
+                    <h4 style="margin-top: 3rem; margin-bottom: 1.5rem;">Follow Us</h4>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="#" style="font-size: 1.5rem; color: var(--olive-primary);"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="#" style="font-size: 1.5rem; color: var(--olive-primary);"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" style="font-size: 1.5rem; color: var(--olive-primary);"><i
+                                class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="reveal delay-100">
+                    <div class="glass-panel" style="padding: 3rem; border-radius: 20px; background: #fff;">
+                        <h3 style="margin-bottom: 2rem;">Send a Message</h3>
+                        <form onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                                <input type="text" placeholder="First Name" required>
+                                <input type="text" placeholder="Last Name" required>
+                            </div>
+                            <input type="email" placeholder="Email Address" required>
+                            <input type="text" placeholder="Subject">
+                            <textarea rows="5" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <div style="height: 450px; width: 100%;">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.492582736443!2d74.45366471514414!3d31.45542798139106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391908c3d2e3d3bd%3A0x6bba52a4f4e7e8b6!2sDHA%20Phase%206%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="logo" style="color: var(--white); margin-bottom: 2rem;">
+                <i class="fas fa-leaf text-gold"></i>
+                Zaitoon<span style="color: var(--gold-primary);">.</span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 3rem;">
+                <div>
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Shop Collection</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone text-gold"></i> +92 300 1234567</li>
+                        <li><i class="fas fa-envelope text-gold"></i> info@zaitoon.pk</li>
+                        <li><i class="fas fa-map-marker-alt text-gold"></i> Lahore, Pakistan</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Zaitoon Pure Olive Oil. Crafted with perfection.</p>
+                <div style="display: flex; gap: 1rem;">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Use standard common script logic
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active-reveal");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+        reveal();
+
+        window.addEventListener("scroll", function () {
+            var navbar = document.getElementById("navbar");
+            if (window.scrollY > 50) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
